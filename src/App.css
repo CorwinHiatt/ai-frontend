@@ -4,8 +4,21 @@
 
 .App-header {
   background-color: #282c34;
-  padding: 20px;
+  padding: 40px; /* Increase the padding for a bigger header */
   color: white;
+  font-size: 24px; /* Increase the font size for a bigger header text */
 }
 
-/* Add your custom CSS styles here */
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* Increase the margin-top for more spacing */
+}
+
+.text-boxes input {
+  margin-bottom: 20px; /* Increase the margin-bottom for more spacing between inputs */
+  padding: 10px; /* Increase the padding for bigger input boxes */
+  width: 300px; /* Increase the width for wider input boxes */
+  font-size: 16px; /* Increase the font size for bigger input text */
+}
