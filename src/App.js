@@ -1,5 +1,3 @@
-
-import './App.css';
 import './App.css';
 
 function App() {
@@ -13,7 +11,10 @@ function App() {
         <input type="text" placeholder="Enter your email" />
         <input type="text" placeholder="Enter your message" />
       </div>
-    </div>
+      <footer className="App-footer">
+        <p>&copy; 2022 My Cool Webpage. All rights reserved.</p>
+      </footer>
+    </div> // Correctly closing the main div here
   );
 }
 
