@@ -12,7 +12,7 @@ function App() {
         <input type="text" placeholder="Enter your message" />
       </div>
       <footer className="App-footer">
-        <p>&copy; 2022 My Cool Webpage. All rights reserved.</p>
+        <p>&copy; 2022 My Cool Webpage By Corwin. All rights reserved.</p>
       </footer>
     </div> // Correctly closing the main div here
   );
