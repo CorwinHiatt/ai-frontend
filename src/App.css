@@ -9,27 +9,8 @@
   font-size: 24px; /* Increase the font size for a bigger header text */
   background-image: linear-gradient(to bottom, #ffcc00, #ff9900); /* Add a cool gradient background */
 }
-.footer {
-  margin-top: 80px; /* Increase the margin-top for more spacing between the content and the footer */
-  background-color: #282c34;
-  padding: 20px; /* Increase the padding for a bigger footer */
-  color: white;
-  text-align: center;
-  font-size: 14px; /* Decrease the font size for smaller footer text */
-}
-.App {
-  text-align: center;
-}
 
-.App-header {
-  background-color: #282c34;
-  padding: 40px; /* Increase the padding for a bigger header */
-  color: white;
-  font-size: 24px; /* Increase the font size for a bigger header text */
-  background-image: linear-gradient(to bottom, #ffcc00, #ff9900); /* Add a cool gradient background */
-}
-
-.footer {
+.App-footer {
   margin-top: 80px; /* Increase the margin-top for more spacing between the content and the footer */
   background-color: #282c34;
   padding: 20px; /* Increase the padding for a bigger footer */
@@ -52,30 +33,6 @@
   font-size: 16px; /* Increase the font size for bigger input text */
 }
 
-.button {
-  background-color: #ff9900; /* Set the background color for the button */
-  color: white; /* Set the text color for the button */
-  padding: 10px 20px; /* Increase the padding for a bigger button */
-  border: none; /* Remove the border from the button */
-  border-radius: 5px; /* Add rounded corners to the button */
-  font-size: 18px; /* Increase the font size for the button text */
-  cursor: pointer; /* Add a pointer cursor to the button */
-}
-
-.button:hover {
-  background-color: #ffcc00; /* Change the background color on hover */
-}
-
-.button:active {
-  background-color: #ff9900; /* Change the background color when the button is clicked */
-}
-
-.text-boxes input {
-  margin-bottom: 20px; /* Increase the margin-bottom for more spacing between inputs */
-  padding: 10px; /* Increase the padding for bigger input boxes */
-  width: 300px; /* Increase the width for wider input boxes */
-  font-size: 16px; /* Increase the font size for bigger input text */
-}
 .button {
   background-color: #ff9900; /* Set the background color for the button */
   color: white; /* Set the text color for the button */
