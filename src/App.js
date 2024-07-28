@@ -1,20 +1,27 @@
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to My Cool Webpage!</h1>
-      </header>
-      <div className="text-boxes">
-        <input type="text" placeholder="Enter your name" />
-        <input type="text" placeholder="Enter your email" />
-        <input type="text" placeholder="Enter your message" />
+      <Header />
+      <div className="content">
+        <section className="description">
+          <p>This project is completely AI-prompted, showcasing the power of modern AI tools in web development. By leveraging AI, we can quickly generate functional and visually appealing components, reducing development time and increasing productivity.</p>
+          <p>What makes this project neat is the seamless integration of AI-generated content with traditional coding practices. It demonstrates how AI can assist in various aspects of development, from generating code snippets to designing UI elements, making the development process more efficient and innovative.</p>
+        </section>
+        <div className="text-boxes">
+          <input type="text" placeholder="Enter your name" />
+          <input type="text" placeholder="Enter your email" />
+          <input type="text" placeholder="Enter your message" />
+          <button className="button">Submit</button>
+        </div>
       </div>
-      <footer className="App-footer">
-        <p>&copy; 2022 My Cool Webpage By Corwin. All rights reserved.</p>
-      </footer>
-    </div> // Correctly closing the main div here
+      <Footer />
+    </div>
   );
 }
 

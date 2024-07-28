@@ -1,52 +1,75 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: radial-gradient(circle, silver, white);
 }
 
 .App-header {
   background-color: #282c34;
-  padding: 40px; /* Increase the padding for a bigger header */
+  padding: 40px;
   color: white;
-  font-size: 24px; /* Increase the font size for a bigger header text */
-  background-image: linear-gradient(to bottom, #ffcc00, #ff9900); /* Add a cool gradient background */
+  font-size: 24px;
+  background-image: linear-gradient(to bottom, #ffcc00, #ff9900);
 }
 
 .App-footer {
-  margin-top: 80px; /* Increase the margin-top for more spacing between the content and the footer */
+  margin-top: auto; /* Move footer to the bottom */
   background-color: #282c34;
-  padding: 20px; /* Increase the padding for a bigger footer */
+  padding: 20px;
   color: white;
   text-align: center;
-  font-size: 14px; /* Decrease the font size for smaller footer text */
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.description {
+  margin-bottom: 40px;
+  max-width: 600px;
+  text-align: left;
 }
 
 .text-boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40px; /* Increase the margin-top for more spacing */
+  margin-top: 40px;
 }
 
 .text-boxes input {
-  margin-bottom: 20px; /* Increase the margin-bottom for more spacing between inputs */
-  padding: 10px; /* Increase the padding for bigger input boxes */
-  width: 300px; /* Increase the width for wider input boxes */
-  font-size: 16px; /* Increase the font size for bigger input text */
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box-shadow */
 }
 
 .button {
-  background-color: #ff9900; /* Set the background color for the button */
-  color: white; /* Set the text color for the button */
-  padding: 10px 20px; /* Increase the padding for a bigger button */
-  border: none; /* Remove the border from the button */
-  border-radius: 5px; /* Add rounded corners to the button */
-  font-size: 18px; /* Increase the font size for the button text */
-  cursor: pointer; /* Add a pointer cursor to the button */
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add box-shadow */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
 }
 
 .button:hover {
-  background-color: #ffcc00; /* Change the background color on hover */
+  background-color: #ffcc00;
 }
 
 .button:active {
-  background-color: #ff9900; /* Change the background color when the button is clicked */
+  background-color: #ff9900;
 }
