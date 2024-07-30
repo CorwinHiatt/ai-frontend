@@ -83,6 +83,16 @@ html, body {
   transition: background-color 0.3s ease;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 0 10px 5px #c308e8, 0 0 10px 5px pink; /* Add pink box-shadow to the grey background */
+}
+
 .button:hover {
   background-color: #ffcc00;
 }
