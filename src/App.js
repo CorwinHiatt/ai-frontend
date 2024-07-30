@@ -14,9 +14,9 @@ function App() {
           <p>What makes this project neat is the seamless integration of AI-generated content with traditional coding practices. It demonstrates how AI can assist in various aspects of development, from generating code snippets to designing UI elements, making the development process more efficient and innovative.</p>
         </section>
         <div className="text-boxes">
-          <input type="text" placeholder="Enter your name" />
-          <input type="text" placeholder="Enter your email" />
-          <input type="text" placeholder="Enter your message" />
+          <input type="text" placeholder="Enter your name"  />
+          <input type="text" placeholder="Enter your email"  />
+          <input type="text" placeholder="Enter your message" style={{ width: '300px', height: '100px' }} />
           <button className="button">Submit</button>
         </div>
       </div>
