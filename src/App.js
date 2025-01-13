@@ -25,4 +25,6 @@ function App() {
   );
 }
 
+// just adding a comment to test the pipeline
+
 export default App;
